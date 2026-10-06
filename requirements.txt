@@ -1,0 +1,6 @@
+# AstrBot provides the host APIs and constrains its shared dependencies.
+# PIL -> Pillow; botpy -> qq-botpy.
+Pillow
+starlette
+qq-botpy
+aiohttp

@@ -1,0 +1,9 @@
+name: astrbot_plugin_official_cards
+display_name: QQ 官方图文卡片
+desc: 为插件回复与订阅消息提供 QQ 官方 Markdown、临时图片和安全指令按钮；保留其他平台路径。
+version: 1.0.14
+author: wzq10314
+repo: https://github.com/wzq10314/astrbot_plugin_official_cards
+support_platforms:
+  - qq_official
+astrbot_version: ">=4.28.1,<5"

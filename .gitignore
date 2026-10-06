@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+config.json
+config.yaml
+state/
+requests/
+cache/
+logs/
+published_images/
+menu_images/
+*.log
+.env

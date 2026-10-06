@@ -1,0 +1,31 @@
+{
+  "enabled": {
+    "description": "启用 QQ 官方图文适配",
+    "type": "bool",
+    "default": true
+  },
+  "public_base_url": {
+    "description": "已部署的 HTTPS 图片访问地址",
+    "type": "string",
+    "default": "",
+    "hint": "请填写自己的 HTTPS 域名，例如 https://example.com，并将 /api/file/ 路由到 AstrBot。只发布本次发送的图片，不修改全局 callback 配置。"
+  },
+  "enable_keyboard": {
+    "description": "启用 QQ 官方点击回调按钮",
+    "type": "bool",
+    "default": true,
+    "hint": "QQ群和私聊点击后直接由机器人回复，不填入输入框；缺少参数时返回用法。QQ 明确拒绝按钮权限时退回普通图文。"
+  },
+  "image_ttl_seconds": {
+    "description": "卡片图片有效期（秒）",
+    "type": "int",
+    "default": 21600,
+    "hint": "限制为 60 至 86400 秒。过期后历史卡片图片可能不再显示。"
+  },
+  "max_image_tokens": {
+    "description": "同时保留的图片访问令牌数量",
+    "type": "int",
+    "default": 256,
+    "hint": "限制为 8 至 512。超出时最早过期的令牌提前失效。"
+  }
+}
